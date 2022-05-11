@@ -1,6 +1,6 @@
 {
     "name": "@testcomplete/loggerutil",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A log output interface to let scripts working with TestComplete & NodeJS at the same time",
     "main": "LoggerUtil.js",
     "scripts": {
