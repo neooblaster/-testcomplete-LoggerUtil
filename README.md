@@ -2,7 +2,7 @@
 
 > A log output interface to let scripts working with TestComplete & NodeJS at the same time.
 
-* **Version** : ``v0.1.0``
+* **Version** : ``v0.1.1``
 * **Dependencies** :
     * none
   
@@ -10,7 +10,33 @@
 ## Summary
 
 [](BeginSummary)
+* [Summary](#summary)
+* [FileSystemUtil Setup for TestComplete](#filesystemutil%20setup%20for%20testcomplete)
+* [Get Started](#get%20started)
+* [Log a message `message()`](#log%20a%20message%20%60message()%60)
+* [Log a warning `warning()`](#log%20a%20warning%20%60warning()%60)
+* [Log an error `error()`](#log%20an%20error%20%60error()%60)
 [](EndSummary)
+
+
+
+## FileSystemUtil Setup for TestComplete
+
+As this library is published on **npmjs**,
+you can easily get library with the following command
+if you have **nodejs** installed on your computer.
+
+````bash
+npm install @testcomplete/loggerutil
+````
+
+Please confer to this documentation to add script in TestComplete :
+
+Script List for the setup :
+
+* ``./node_modules/@testcomplete/loggerutil/LoggerUtil.js``
+
+[@testcomplete/testcompletelibrarysetup](https://www.npmjs.com/package/@testcomplete/testcompletelibrarysetup)
 
 
 
