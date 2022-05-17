@@ -2,7 +2,9 @@
 
 > A log output interface to let scripts working with TestComplete & NodeJS at the same time.
 
-* **Version** : ``v0.1.1``
+* **Version** : ``v0.1.2``
+* **Compatibility** : **TestComplete** - **NodeJS**
+* **Script** : ``./node_modules/@testcomplete/loggerutil/LoggerUtil.js``
 * **Dependencies** :
     * none
   
@@ -11,16 +13,16 @@
 
 [](BeginSummary)
 * [Summary](#summary)
-* [FileSystemUtil Setup for TestComplete](#filesystemutil%20setup%20for%20testcomplete)
-* [Get Started](#get%20started)
-* [Log a message `message()`](#log%20a%20message%20%60message()%60)
-* [Log a warning `warning()`](#log%20a%20warning%20%60warning()%60)
-* [Log an error `error()`](#log%20an%20error%20%60error()%60)
+* [LoggerUtil Setup for TestComplete](#loggerutil-setup-for-testcomplete)
+* [Get Started](#get-started)
+* [Log a message `message()`](#log-a-message-message)
+* [Log a warning `warning()`](#log-a-warning-warning)
+* [Log an error `error()`](#log-an-error-error)
 [](EndSummary)
 
 
 
-## FileSystemUtil Setup for TestComplete
+## LoggerUtil Setup for TestComplete
 
 As this library is published on **npmjs**,
 you can easily get library with the following command
@@ -36,7 +38,7 @@ Script List for the setup :
 
 * ``./node_modules/@testcomplete/loggerutil/LoggerUtil.js``
 
-[TestComplete Library Setup](https://gitlab.viseo.com/testcomplete/documentations/testcompletelibrarysetup)
+[@testcomplete/testcompletelibrarysetup](https://www.npmjs.com/package/@testcomplete/testcompletelibrarysetup)
 
 
 
